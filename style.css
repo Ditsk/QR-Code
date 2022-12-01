@@ -1,0 +1,46 @@
+body {
+    
+display: flex;           
+justify-content: center;
+background-color: hsl(212, 45%, 89%);
+color: hsl(218, 44%, 22%);
+font-family: "Outfit", sans-serif;
+    
+}
+
+div {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    
+    width: 17em;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 15%;
+    text-align: center;
+}
+
+div h4 {
+    margin: 0.5em;
+    font-weight: 700;
+}
+
+div p {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    margin: 0.5em;
+}
+
+div img {
+    
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px){
+    div{
+        width: 20em;
+        height: auto;
+        margin: 40%;
+    }
+    
+}
