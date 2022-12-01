@@ -16,7 +16,7 @@ div {
     width: 17em;
     border-radius: 1em;    
     text-align: center;
-
+    padding: 10px;
     position: absolute;
     top:50%;
     -ms-transform: translateY(-50%);
